@@ -1,1 +1,27 @@
-
+{
+  "name": "shopify-whatsapp-notifications",
+  "version": "1.0.0",
+  "description": "Shopify to WhatsApp notification service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "whatsapp-web.js": "^1.21.0",
+    "qrcode-terminal": "^0.12.0",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "shopify",
+    "whatsapp",
+    "notifications",
+    "webhook"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
